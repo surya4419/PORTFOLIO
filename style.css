@@ -87,7 +87,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/home.jpg') no-repeat;
+    background: url('./images/background1.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -716,7 +716,7 @@ span {
 .navbar .animate,
 #menu-icon .animate,
 .home.show-animate .animate {
-    animation: showRight 1s ease forwards;
+    animation: showRight .3s ease forwards;
     animation-delay: calc(.3s * var(--i));
 }
 
